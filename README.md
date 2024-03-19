@@ -1,7 +1,13 @@
-# TCPioneer
-TCPioneer is a program for Windows that protects the TCP connections from being interfered.  
-  
-for other platforms:**[phantomsocks](https://github.com/Macronut/phantomsocks)**
+# GhosTCP
+GhosTCP is a program for Windows that protects the TCP connections from being interfered.  
+
+## Compile
+```
+git clone https://github.com/macronut/ghostcp
+cd ghostcp
+GOOS=windows GOARCH=amd64 go build
+```
+Download WinDivert from https://github.com/basil00/Divert/releases/v1.4.3
 
 ## Run as Client
 run tcpioneer.exe to start the program
